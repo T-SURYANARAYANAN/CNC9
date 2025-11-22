@@ -20,6 +20,8 @@ ________________________________________
 •	Serial DCE/DTE cable for WAN link<br>
 ________________________________________<br>
 # Network Topology Diagram
+<img width="1919" height="1076" alt="image" src="https://github.com/user-attachments/assets/8f9fe0ba-2786-4808-bb9e-0d391f4293f2" />
+
 (Insert your Packet Tracer screenshot showing CustomerRouter → LAN-A Switch → PC-A, CustomerRouter → LAN-B Switch → PC-B, and ISP side with Router, Switch, Workstation, Server, and Serial link.)<br>
 ________________________________________<br>
 # Addressing Table
@@ -94,8 +96,14 @@ ________________________________________<br>
 ________________________________________<br>
 # Output (Attach Screenshots)
 •	show ip interface brief on CustomerRouter<br>
+<img width="471" height="480" alt="image" src="https://github.com/user-attachments/assets/289fae92-fcc3-49fd-a8e0-367f3545c493" />
+
 •	show ip route<br>
+<img width="471" height="480" alt="image" src="https://github.com/user-attachments/assets/98758f47-7d22-45bc-a051-7b99d06196a1" />
+
 •	Successful pings: PC-A → PC-B, PC-A → ISP Server<br>
+<img width="476" height="472" alt="image" src="https://github.com/user-attachments/assets/eb83db02-bd01-4148-b9a8-0f23f5c15328" />
+
 ________________________________________<br>
 # Result
 The IPv4 subnetting scheme was successfully designed and implemented. Router, switches, and PCs were configured with correct addressing. Connectivity within LANs, across subnets, and to ISP devices was verified using ping and show commands.<br>
